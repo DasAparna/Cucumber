@@ -51,6 +51,7 @@ public class MyApplicationTest {
 		   driver.get("http://automationpractice.com/index.php?");
 		  Thread.sleep(20000);
 		  System.out.println("URL Launched");
+		  System.out.println("Checking Git Repo");
 	}
 
 	@When("^user clicks on signin$")
